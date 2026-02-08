@@ -8,10 +8,10 @@
 
         default_layer {
             bindings = <
-&kp ES_Q  &kp ES_W  &kp ES_E  &kp ES_R      &kp ES_T     &kp ES_Y  &kp ES_U  &kp NUMBER_7  &kp QMARK   &kp SEMI
-&kp ES_A  &kp ES_S  &kp ES_D  &kp ES_F      &kp ES_G     &kp ES_H  &kp ES_J  &kp ES_K      &kp ES_L    &kp ES_SEMI
-&kp ES_Z  &kp ES_X  &kp ES_C  &kp ES_V      &kp ES_B     &kp ES_N  &kp ES_M  &kp ES_COMMA  &kp ES_DOT  &kp ES_SLASH
-                              &kp ES_SPACE  &kp ENTER    &kp BSPC  &kp TAB
+&kp ES_Q  &kp N7    &kp ES_AT  &kp ES_N7     &kp SLASH    &kp ES_Y  &kp ES_U  &kp NUMBER_7  &kp QMARK   &kp SEMI
+&kp ES_A  &kp ES_S  &kp ES_D   &kp ES_F      &kp ES_G     &kp ES_H  &kp ES_J  &kp ES_K      &kp ES_L    &kp ES_SEMI
+&kp ES_Z  &kp ES_X  &kp ES_C   &kp ES_V      &kp ES_B     &kp ES_N  &kp ES_M  &kp ES_COMMA  &kp ES_DOT  &kp ES_SLASH
+                               &kp ES_SPACE  &kp ENTER    &kp BSPC  &kp TAB
             >;
         };
     };
