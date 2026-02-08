@@ -3,24 +3,49 @@
 #include "keys_es_latin_american.h"
 
 / {
-	keymap {
-		compatible = "zmk,keymap";
+    combos {
+        compatible = "zmk,combos";
 
-		default_layer {
-			bindings = <
-				&kp ES_Q   &kp ES_W   &kp ES_E   &kp ES_R   &kp ES_T             &kp ES_Y   &kp ES_U   &kp ES_I   &kp ES_O   &kp ES_P
-				&kp ES_A   &kp ES_S   &kp ES_D   &kp ES_F   &kp ES_G             &kp ES_H   &kp ES_J   &kp ES_K   &kp ES_L   &kp ES_N_TILDE
-				&kp ES_Z   &kp ES_X   &kp ES_C   &kp ES_V   &kp ES_B             &kp ES_N   &kp ES_M   &kp ES_COMMA &kp ES_DOT &kp ES_SLASH
-				                 &mt LSHIFT ES_SPACE  &lt 1 ENTER         &mt RCTRL BSPC  &kp TAB
-			>;
-		};
-		symbols_layer {
-			bindings = <
-				&kp ES_LPAR &kp ES_RPAR &kp ES_LBKT &kp ES_RBKT &kp ES_LBRC        &kp ES_RBRC &kp ES_MINUS &kp ES_UNDER &kp ES_ASTRK &kp ES_AMPS
-				&kp ES_QMARK &kp ES_EXCL &kp ES_DQT &kp ES_APOS &kp ES_COLON       &kp ES_SEMI &kp ES_COMMA &kp ES_DOT   &kp ES_SLASH &kp ES_DLLR
-				&kp ES_PRCNT &trans     &trans     &trans     &trans             &trans     &trans      &trans      &trans      &trans
-				                 &trans &trans           &trans  &trans
-			>;
-		};
-	};
+        borrar {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 17>;
+        };
+
+        borrar2 {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <13 12>;
+        };
+
+        alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <31 30>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <32 33>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+&kp ES_Q  &kp ES_W  &kp ES_E  &kp ES_R             &kp ES_T       &kp ES_Y         &kp ES_U  &kp ES_I      &kp ES_O    &kp ES_P
+&kp ES_A  &kp ES_S  &kp ES_D  &kp ES_F             &kp ES_G       &kp ES_H         &kp ES_J  &kp ES_K      &kp ES_L    &kp ES_N_TILDE
+&kp ES_Z  &kp ES_X  &kp ES_C  &kp ES_V             &kp ES_B       &kp ES_N         &kp ES_M  &kp ES_COMMA  &kp ES_DOT  &kp ES_SLASH
+                              &mt LSHIFT ES_SPACE  &lt 1 SPACE    &mt RCTRL SPACE  &kp TAB
+            >;
+        };
+
+        symbols_layer {
+            bindings = <
+&kp ES_LPAR   &kp ES_RPAR  &kp ES_LBKT  &kp ES_RBKT  &kp ES_LBRC     &kp ES_RBRC  &kp ES_MINUS  &kp ES_UNDER  &kp ES_ASTRK  &kp ES_AMPS
+&kp ES_QMARK  &kp ES_EXCL  &kp ES_DQT   &kp ES_APOS  &kp ES_COLON    &kp ES_SEMI  &kp ES_COMMA  &kp ES_DOT    &kp ES_SLASH  &kp ES_DLLR
+&kp ES_PRCNT  &trans       &trans       &trans       &trans          &trans       &trans        &trans        &trans        &trans
+                                        &trans       &trans          &trans       &trans
+            >;
+        };
+    };
 };
