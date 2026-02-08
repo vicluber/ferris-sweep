@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include "keys_es_latin_american.h"
 
 / {
 	keymap {
@@ -7,10 +8,10 @@
 
 		default_layer {
 			bindings = <
-				&kp Q   &kp W   &kp E   &kp R   &kp T             &kp Y   &kp U   &kp I   &kp O   &kp P
-				&kp A   &kp S   &kp D   &kp F   &kp G             &kp H   &kp J   &kp K   &kp L   &kp SEMI
-				&kp Z   &kp X   &kp C   &kp V   &kp B             &kp N   &kp M   &kp COMMA &kp DOT &kp SLASH
-				              &kp SPACE &kp ENTER         &kp BSPC  &kp TAB
+				&kp ES_Q   &kp ES_W   &kp ES_E   &kp ES_R   &kp ES_T             &kp ES_Y   &kp ES_U   &kp ES_I   &kp ES_O   &kp ES_P
+				&kp ES_A   &kp ES_S   &kp ES_D   &kp ES_F   &kp ES_G             &kp ES_H   &kp ES_J   &kp ES_K   &kp ES_L   &kp ES_SEMI
+				&kp ES_Z   &kp ES_X   &kp ES_C   &kp ES_V   &kp ES_B             &kp ES_N   &kp ES_M   &kp ES_COMMA &kp ES_DOT &kp ES_SLASH
+				                 &kp ES_SPACE &kp ENTER         &kp BSPC  &kp TAB
 			>;
 		};
 	};
