@@ -37,12 +37,12 @@
         };
 
         alt {
-            bindings = <&kp LEFT_ALT>;
+            bindings = <&to 2>;
             key-positions = <31 30>;
         };
 
         enter {
-            bindings = <&kp ENTER>;
+            bindings = <&to 5>;
             key-positions = <32 33>;
         };
 
@@ -57,19 +57,19 @@
 
         default_layer {
             bindings = <
-&mt TAB ES_Q              &kp ES_W  &kp ES_E  &kp ES_R        &kp ES_T          &kp ES_Y      &kp ES_U  &kp ES_I      &kp ES_O    &kp ES_P
-&my_mt LEFT_SHIFT ES_A    &kp ES_S  &kp ES_D  &kp ES_F        &kp ES_G          &kp ES_H      &kp ES_J  &kp ES_K      &kp ES_L    &my_mt LEFT_SHIFT ES_N_TILDE
-&my_mt LEFT_CONTROL ES_Z  &kp ES_X  &kp ES_C  &kp ES_V        &kp ES_B          &kp ES_N      &kp ES_M  &kp ES_COMMA  &kp ES_DOT  &my_mt LEFT_CONTROL MINUS
-                                              &lt 5 LEFT_ALT  &my_lt 1 SPACE    &kp ES_SPACE  &to 2
+&mt TAB ES_Q              &kp ES_W  &kp ES_E  &kp ES_R      &kp ES_T          &kp ES_Y      &kp ES_U  &kp ES_I      &kp ES_O    &kp ES_P
+&my_mt LEFT_SHIFT ES_A    &kp ES_S  &kp ES_D  &kp ES_F      &kp ES_G          &kp ES_H      &kp ES_J  &kp ES_K      &kp ES_L    &my_mt LEFT_SHIFT ES_N_TILDE
+&my_mt LEFT_CONTROL ES_Z  &kp ES_X  &kp ES_C  &kp ES_V      &kp ES_B          &kp ES_N      &kp ES_M  &kp ES_COMMA  &kp ES_DOT  &my_mt LEFT_CONTROL MINUS
+                                              &kp LEFT_ALT  &my_lt 1 SPACE    &kp ES_SPACE  &to 4
             >;
         };
 
         symbols_layer {
             bindings = <
-&kp ES_LPAR      &kp ES_RPAR  &kp ES_LBKT  &kp ES_RBKT  &kp ES_LBRC       &kp ES_RBRC  &kp ES_MINUS  &kp ES_UNDER  &kp ES_ASTRK  &kp ES_AMPS
-&kp ES_QUESTION  &kp ES_EXCL  &kp ES_DQT   &kp ES_APOS  &kp ES_COLON      &kp ES_SEMI  &kp ES_COMMA  &kp ES_DOT    &kp ES_SLASH  &kp ES_DLLR
-&trans           &trans       &trans       &trans       &kp ES_PERCENT    &trans       &trans        &trans        &trans        &trans
-                                           &trans       &trans            &trans       &trans
+&kp ES_LPAR  &kp ES_RPAR  &kp ES_PERCENT  &kp ES_SLASH     &kp ES_DLLR     &trans  &trans  &trans  &trans  &trans
+&kp ES_LBKT  &kp ES_RBKT  &kp ES_DQT      &kp ES_QUESTION  &kp ES_ASTRK    &trans  &trans  &trans  &trans  &trans
+&kp LBRC     &kp ES_RBRC  &trans          &trans           &trans          &trans  &trans  &trans  &trans  &trans
+                                          &trans           &trans          &trans  &trans
             >;
         };
 
