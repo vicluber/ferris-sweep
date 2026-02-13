@@ -57,10 +57,10 @@
 
         default_layer {
             bindings = <
-&mt TAB ES_Q              &kp ES_W  &kp ES_E  &kp ES_R                &kp ES_T          &kp ES_Y        &kp ES_U     &kp ES_I      &kp ES_O    &kp ES_P
-&my_mt LEFT_SHIFT ES_A    &kp ES_S  &kp ES_D  &kp ES_F                &kp ES_G          &kp ES_H        &kp ES_J     &kp ES_K      &kp ES_L    &my_mt LEFT_SHIFT ES_N_TILDE
-&my_mt LEFT_CONTROL ES_Z  &kp ES_X  &kp ES_C  &kp ES_V                &kp ES_B          &kp ES_N        &kp ES_M     &kp ES_COMMA  &kp ES_DOT  &my_mt LEFT_CONTROL MINUS
-                                              &my_mt LSHIFT ES_SPACE  &my_lt 1 SPACE    &my_lt 4 SPACE  &my_lt 2 AT
+&mt TAB ES_Q              &kp ES_W  &kp ES_E  &kp ES_R        &kp ES_T          &kp ES_Y        &kp ES_U  &kp ES_I      &kp ES_O    &kp ES_P
+&my_mt LEFT_SHIFT ES_A    &kp ES_S  &kp ES_D  &kp ES_F        &kp ES_G          &kp ES_H        &kp ES_J  &kp ES_K      &kp ES_L    &my_mt LEFT_SHIFT ES_N_TILDE
+&my_mt LEFT_CONTROL ES_Z  &kp ES_X  &kp ES_C  &kp ES_V        &kp ES_B          &kp ES_N        &kp ES_M  &kp ES_COMMA  &kp ES_DOT  &my_mt LEFT_CONTROL MINUS
+                                              &lt 5 LEFT_ALT  &my_lt 1 SPACE    &my_lt 4 SPACE  &to 2
             >;
         };
 
@@ -102,9 +102,9 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp UP    &trans     &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans     &trans
                         &trans  &trans    &trans  &trans
             >;
         };
