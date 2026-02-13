@@ -66,10 +66,10 @@
 
         symbols_layer {
             bindings = <
-&kp ES_LPAR  &kp ES_RPAR  &kp ES_PERCENT  &kp ES_SLASH     &kp ES_DLLR     &trans  &trans  &trans  &trans  &trans
-&kp ES_LBKT  &kp ES_RBKT  &kp ES_DQT      &kp ES_QUESTION  &kp ES_ASTRK    &trans  &trans  &trans  &trans  &trans
-&kp LBRC     &kp ES_RBRC  &trans          &trans           &trans          &trans  &trans  &trans  &trans  &trans
-                                          &trans           &trans          &trans  &trans
+&kp ES_LPAR  &kp ES_RPAR  &kp ES_PERCENT       &kp ES_SLASH     &kp ES_DLLR     &trans  &trans  &trans  &trans  &trans
+&kp ES_LBKT  &kp ES_RBKT  &kp ES_DQT           &kp ES_QUESTION  &kp ES_ASTRK    &trans  &trans  &trans  &trans  &trans
+&kp LBRC     &kp ES_RBRC  &kp ES_SINGLE_QUOTE  &kp ES_EXCL      &kp LT          &trans  &trans  &trans  &trans  &trans
+                                               &trans           &trans          &trans  &trans
             >;
         };
 
