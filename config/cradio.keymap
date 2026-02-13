@@ -10,6 +10,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
+            tapping-term-ms = <200>;
             bindings = <&kp>, <&kp>;
         };
 
@@ -17,6 +18,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
+            tapping-term-ms = <200>;
             bindings = <&mo>, <&kp>;
         };
     };
