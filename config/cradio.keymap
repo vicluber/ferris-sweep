@@ -92,10 +92,10 @@
 
         symbols_layer {
             bindings = <
-&kp ES_LPAR  &kp ES_RPAR  &kp ES_PERCENT       &kp ES_SLASH     &kp ES_DLLR     &trans  &trans  &trans  &trans  &trans
-&kp ES_LBKT  &kp ES_RBKT  &kp ES_DQT           &kp ES_QUESTION  &kp ES_ASTRK    &trans  &trans  &trans  &trans  &trans
-&kp LBRC     &kp ES_RBRC  &kp ES_SINGLE_QUOTE  &kp ES_EXCL      &kp LT          &trans  &trans  &trans  &trans  &trans
-                                               &trans           &trans          &trans  &trans
+&kp ES_LPAR  &kp ES_RPAR  &kp ES_PERCENT       &kp ES_SLASH     &kp ES_DLLR     &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
+&kp ES_LBKT  &kp ES_RBKT  &kp ES_DQT           &kp ES_QUESTION  &kp ES_ASTRK    &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
+&kp LBRC     &kp ES_RBRC  &kp ES_SINGLE_QUOTE  &kp ES_EXCL      &kp LT          &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT
+                                               &trans           &trans          &trans  &kp KP_NUMBER_0
             >;
         };
 
