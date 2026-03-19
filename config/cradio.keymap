@@ -66,6 +66,16 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <6 7>;
         };
+
+        EnterComboleft {
+            bindings = <&kp ENTER>;
+            key-positions = <13 12 11>;
+        };
+
+        rightentercombo {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17 18>;
+        };
     };
 
     keymap {
