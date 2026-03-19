@@ -56,6 +56,16 @@
             bindings = <&kp ENTER>;
             key-positions = <31 32>;
         };
+
+        leftshiftlefthand {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <2 3>;
+        };
+
+        leftshiftrighthand {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
