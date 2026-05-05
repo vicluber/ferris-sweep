@@ -91,6 +91,11 @@
             bindings = <&kp LC(LSHIFT)>;
             key-positions = <20 10>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 10>;
+        };
     };
 
     macros {
