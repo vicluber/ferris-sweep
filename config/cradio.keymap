@@ -76,6 +76,16 @@
             bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
         };
+
+        cotrolcomboleft {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <22 23>;
+        };
+
+        controlcombright {
+            bindings = <&kp LCTRL>;
+            key-positions = <26 27>;
+        };
     };
 
     keymap {
