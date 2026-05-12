@@ -119,10 +119,10 @@
 
         default_layer {
             bindings = <
-&kp ES_Q  &kp ES_W  &kp ES_E  &kp ES_R  &kp ES_T    &kp ES_Y      &kp ES_U  &kp ES_I      &kp ES_O    &kp ES_P
-&kp A     &kp ES_S  &kp ES_D  &kp ES_F  &kp ES_G    &kp ES_H      &kp ES_J  &kp ES_K      &kp ES_L    &kp ES_N_TILDE
-&kp Z     &kp ES_X  &kp ES_C  &kp ES_V  &kp ES_B    &kp ES_N      &kp ES_M  &kp ES_COMMA  &kp ES_DOT  &my_mt LEFT_CONTROL ES_MINUS
-                              &mo 2     &mo 1       &kp ES_SPACE  &mo 4
+&kp ES_Q  &kp ES_W  &kp ES_E  &kp ES_R  &kp ES_T    &kp ES_Y  &kp ES_U  &kp ES_I      &kp ES_O    &kp ES_P
+&kp A     &kp ES_S  &kp ES_D  &kp ES_F  &kp ES_G    &kp ES_H  &kp ES_J  &kp ES_K      &kp ES_L    &kp ES_N_TILDE
+&kp Z     &kp ES_X  &kp ES_C  &kp ES_V  &kp ES_B    &kp ES_N  &kp ES_M  &kp ES_COMMA  &kp ES_DOT  &my_mt LEFT_CONTROL ES_MINUS
+                              &kp A     &kp B       &kp C     &kp D
             >;
         };
 
