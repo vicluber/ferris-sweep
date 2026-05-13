@@ -310,7 +310,7 @@ path.combo { stroke: #4a4f70; }
 </g>
 <g transform="translate(165, 33)" class="key keypos-2">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
-<text x="0" y="0" class="key tap">Alt+TAB</text>
+<text x="0" y="0" class="key tap">TAB</text>
 </g>
 <g transform="translate(231, 52)" class="key keypos-3">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>

@@ -5,7 +5,7 @@ layers:
   nav:
   - - PSCRN
     - Ctl+Sft+TAB
-    - Alt+TAB
+    - TAB
     - Ctl+TAB
     - Ctl+W
     - PG UP
