@@ -52,6 +52,24 @@
             bindings = <&mo 5>;
             key-positions = <20 29>;
         };
+
+        bspc_left {
+            bindings = <&kp BSPC>;
+            key-positions = <12 13>;
+            timeout-ms = <50>;
+        };
+
+        bspc_right {
+            bindings = <&kp BSPC>;
+            key-positions = <16 17>;
+            timeout-ms = <50>;
+        };
+
+        enter_right {
+            bindings = <&kp ENTER>;
+            key-positions = <28 29>;
+            timeout-ms = <50>;
+        };
     };
 
     keymap {
@@ -68,7 +86,7 @@
 
         nav_layer {
             bindings = <
-&kp PSCRN  &kp LC(LS(TAB))  &kp TAB      &kp LC(TAB)  &kp LC(W)      &kp PG_UP  &kp BSPC   &kp UP     &kp DEL    &caps_word
+&kp PSCRN  &kp LC(LS(TAB))  &sk LC(LSHFT)  &kp LC(TAB)  &kp LC(W)      &kp PG_UP  &kp BSPC   &kp UP     &kp DEL    &caps_word
 &sk LGUI   &sk LALT         &sk LSHFT    &sk LCTRL    &kp END        &kp TAB    &kp LEFT   &kp DOWN   &kp RIGHT  &kp ESC
 &kp LC(Z)  &kp LC(X)        &kp LC(C)    &kp LC(V)    &kp LC(Y)      &kp PG_DN  &kp C_PREV &kp C_PP   &kp C_NEXT &kp K_APP
                                           &trans       &trans         &kp ENTER  &trans
