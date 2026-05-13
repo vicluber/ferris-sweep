@@ -5,7 +5,7 @@ layers:
   nav:
   - - PSCRN
     - Ctl+Sft+TAB
-    - TAB
+    - {t: Ctl+Sft, h: sticky}
     - Ctl+TAB
     - Ctl+W
     - PG UP
@@ -181,6 +181,12 @@ combos:
 - p: [0, 1]
   k: ESC
 - p: [20, 21]
+  k: ENTER
+- p: [12, 13]
+  k: BSPC
+- p: [16, 17]
+  k: BSPC
+- p: [28, 29]
   k: ENTER
 - p: [8, 9]
   k: bluetooth
