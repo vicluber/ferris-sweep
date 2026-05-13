@@ -1,0 +1,188 @@
+layout: {zmk_keyboard: cradio}
+layers:
+  default:
+  - [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, H, J, K, L, '''', Z, X, C, V, B, N, M, ',', ., '?', nav, LSHFT, SPC, sym]
+  nav:
+  - - PSCRN
+    - Ctl+Sft+TAB
+    - Alt+TAB
+    - Ctl+TAB
+    - Ctl+W
+    - PG UP
+    - BSPC
+    - UP
+    - DEL
+    - '&caps_word'
+    - {t: LGUI, h: sticky}
+    - {t: LALT, h: sticky}
+    - {t: LSHFT, h: sticky}
+    - {t: LCTRL, h: sticky}
+    - END
+    - TAB
+    - LEFT
+    - DOWN
+    - RIGHT
+    - ESC
+    - Ctl+Z
+    - Ctl+X
+    - Ctl+C
+    - Ctl+V
+    - Ctl+Y
+    - PG DN
+    - PREV
+    - PP
+    - NEXT
+    - APP
+    - {type: held}
+    - {t: ▽, type: trans}
+    - ENTER
+    - {t: ▽, type: trans}
+  sym:
+  - - ^
+    - '['
+    - '{'
+    - (
+    - <
+    - '>'
+    - )
+    - '}'
+    - ']'
+    - '~'
+    - '-'
+    - '*'
+    - _
+    - '='
+    - '@'
+    - '#'
+    - {t: LCTRL, h: sticky}
+    - {t: LSHFT, h: sticky}
+    - {t: LALT, h: sticky}
+    - {t: LGUI, h: sticky}
+    - +
+    - ':'
+    - /
+    - ;
+    - '%'
+    - $
+    - '&'
+    - \
+    - '|'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - SPC
+    - {type: held}
+  num:
+  - - '7'
+    - '5'
+    - '3'
+    - '1'
+    - '9'
+    - '8'
+    - '0'
+    - '2'
+    - '4'
+    - '6'
+    - {t: LGUI, h: sticky}
+    - {t: LALT, h: sticky}
+    - {t: LSHFT, h: sticky}
+    - {t: LCTRL, h: sticky}
+    - F11
+    - F12
+    - {t: LCTRL, h: sticky}
+    - {t: LSHFT, h: sticky}
+    - {t: LALT, h: sticky}
+    - {t: LGUI, h: sticky}
+    - F7
+    - F5
+    - F3
+    - F1
+    - F9
+    - F8
+    - F10
+    - F2
+    - F4
+    - F6
+    - {type: held}
+    - {t: ▽, type: trans}
+    - SPC
+    - {type: held}
+  bluetooth:
+  - - BT CLR ALL
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  mouse:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '&msc SCRL_UP'
+    - '&mkp LCLK'
+    - '&mmv MOVE_UP'
+    - '&mkp RCLK'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '&msc SCRL_DOWN'
+    - '&mmv MOVE_LEFT'
+    - '&mmv MOVE_DOWN'
+    - '&mmv MOVE_RIGHT'
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESC
+- p: [20, 21]
+  k: ENTER
+- p: [8, 9]
+  k: bluetooth
+- p: [20, 29]
+  k: mouse

@@ -31,6 +31,18 @@
     combos {
         compatible = "zmk,combos";
 
+        esc_combo {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+            timeout-ms = <50>;
+        };
+
+        enter_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <20 21>;
+            timeout-ms = <50>;
+        };
+
         bluetooth {
             bindings = <&mo 4>;
             key-positions = <8 9>;
