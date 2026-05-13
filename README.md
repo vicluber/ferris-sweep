@@ -22,7 +22,10 @@ Personal ZMK keymap for the [Ferris Sweep](https://github.com/davidphilipbarr/Sw
 | Keys | Output |
 |------|--------|
 | `Q + W` | Escape |
-| `Z + X` | Enter |
+| `Z + X` | Enter (left hand) |
+| `. + ?` | Enter (right hand) |
+| `D + F` | Backspace (left hand) |
+| `J + K` | Backspace (right hand) |
 | `O + P` | Bluetooth layer |
 | `Z + ?` | Mouse layer |
 
