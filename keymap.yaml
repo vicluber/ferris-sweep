@@ -1,11 +1,11 @@
 layout: {zmk_keyboard: cradio}
 layers:
   default:
-  - [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, H, J, K, L, ñ, Z, X, C, V, B, N, M, ',', ., '?', nav, LSHFT, SPC, sym]
+  - [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, H, J, K, L, AltGr+N, Z, X, C, V, B, N, M, ',', ., '?', nav, LSHFT, SPC, sym]
   nav:
   - - PSCRN
     - Ctl+Sft+TAB
-    - {t: Ctl+Sft, h: sticky}
+    - {t: Ctl+LSHFT, h: sticky}
     - Ctl+TAB
     - Ctl+W
     - PG UP
@@ -47,7 +47,7 @@ layers:
     - )
     - '}'
     - ']'
-    - ´
+    - AltGr+'
     - '-'
     - '*'
     - _
@@ -73,16 +73,16 @@ layers:
     - SPC
     - {type: held}
   num:
-  - - '7'
-    - '5'
-    - '3'
-    - '1'
-    - '9'
-    - '8'
-    - '0'
+  - - '1'
     - '2'
+    - '3'
     - '4'
+    - '5'
     - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '0'
     - {t: LGUI, h: sticky}
     - {t: LALT, h: sticky}
     - {t: LSHFT, h: sticky}
@@ -182,13 +182,13 @@ combos:
   k: ESC
 - p: [20, 21]
   k: ENTER
+- p: [8, 9]
+  k: bluetooth
+- p: [20, 29]
+  k: mouse
 - p: [12, 13]
   k: BSPC
 - p: [16, 17]
   k: BSPC
 - p: [28, 29]
   k: ENTER
-- p: [8, 9]
-  k: bluetooth
-- p: [20, 29]
-  k: mouse
