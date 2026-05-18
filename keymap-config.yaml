@@ -27,3 +27,4 @@ draw_config:
     text.label { fill: #5a6070 !important; stroke: none; font-weight: 600; font-size: 12px; }
     text.trans { fill: #3a3f60 !important; }
     path.combo { stroke: #4a4f70; }
+    g.layer-sym text.tap { font-size: 16px; }
