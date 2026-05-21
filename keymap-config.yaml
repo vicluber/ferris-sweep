@@ -1,3 +1,8 @@
+parse_config:
+  zmk_keycode_map:
+    RA(N): "⌥+N"
+    RA(E): "⌥+E"
+
 draw_config:
   dark_mode: true
   key_w: 72
