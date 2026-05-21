@@ -30,8 +30,10 @@
         ntilde: ntilde {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RA(N) &kp N>;
+            bindings = <&kp RA(N)>, <&macro_wait_time 20>, <&kp N>;
             label = "NTILDE";
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
     };
 
