@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: cradio}
 layers:
   default:
-  - [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, H, J, K, L, AltGr+N, Z, X, C, V, B, N, M, ',', ., '?', nav, LSHFT, SPC, sym]
+  - [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, H, J, K, L, '&ntilde', Z, X, C, V, B, N, M, ',', ., '?', nav, LSHFT, SPC, sym]
   nav:
   - - PSCRN
     - Gui+Sft+TAB
@@ -47,7 +47,7 @@ layers:
     - )
     - '}'
     - ']'
-    - AltGr+'
+    - AltGr+E
     - '-'
     - '*'
     - _

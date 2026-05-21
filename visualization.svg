@@ -234,7 +234,7 @@ g.layer-sym text.tap { font-size: 16px; }
 </g>
 <g transform="translate(759, 162)" class="key keypos-19">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
-<text x="0" y="0" class="key tap">AltGr+N</text>
+<text x="0" y="0" class="key tap">&amp;ntilde</text>
 </g>
 <g transform="translate(33, 228)" class="key keypos-20">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
@@ -492,7 +492,7 @@ g.layer-sym text.tap { font-size: 16px; }
 </g>
 <g transform="translate(759, 96)" class="key keypos-9">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
-<text x="0" y="0" class="key tap">AltGr+&#x27;</text>
+<text x="0" y="0" class="key tap">AltGr+E</text>
 </g>
 <g transform="translate(33, 162)" class="key keypos-10">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
