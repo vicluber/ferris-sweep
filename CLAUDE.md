@@ -54,11 +54,15 @@ After editing the keymap, regenerate the image:
 
 ```bash
 keymap parse -c 34 -z config/cradio.keymap > keymap.yaml
+sed -i '' 's/AltGr+N/⌥+N/g' keymap.yaml
+sed -i '' 's/AltGr+E/⌥+E/g' keymap.yaml
 keymap -c keymap-config.yaml draw keymap.yaml > visualization.svg
 rsvg-convert -o visualization.png visualization.svg
 ```
 
 Requires `keymap-drawer` (`pipx install keymap-drawer`) and `rsvg-convert` (`librsvg`).
+
+Note: `sed` commands replace PC "AltGr" terminology with macOS "⌥" (Option) symbol.
 
 ## Known issues & fixes
 
