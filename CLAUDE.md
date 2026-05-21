@@ -23,9 +23,9 @@ Personal ZMK firmware for a **Ferris Sweep** — a 34-key wireless split keyboar
 
 | Layer | Activation | Notes |
 |-------|-----------|-------|
-| Default | — | QWERTY; ñ on right pinky; left thumb = NAV hold, right thumb = SYM hold |
+| Default | — | QWERTY; ñ on right pinky (macro); left thumb = NAV hold, right thumb = SYM hold |
 | NAV (1) | Hold left thumb | Arrows, page up/dn, clipboard (Cmd+Z/X/C/V, Cmd+Shift+Z redo), Cmd+Tab/Cmd+Shift+Tab, Cmd+W, media, sticky mods |
-| SYM (2) | Hold right thumb | Symbols, brackets; dead acute (´) for Spanish accents; sticky mods |
+| SYM (2) | Hold right thumb | Symbols, brackets; dead acute Option+E (´) for Spanish accents (á, é, í, ó, ú); sticky mods |
 | NUM (3) | Hold both thumbs | Numbers (odd left / even right), F-keys, sticky mods |
 | Bluetooth (4) | O+P combo | BT profile select (0–3) and BT_CLR_ALL |
 | Mouse (5) | Z+? combo | Mouse movement, scroll, left/right click |
@@ -46,6 +46,7 @@ Personal ZMK firmware for a **Ferris Sweep** — a 34-key wireless split keyboar
 
 - `Luthiers` — types `Luthiers1.*`
 - `Luthiersvictor` — types `Luthiers1.*victor`
+- `ntilde` — types ñ (macOS: Option+N, then N)
 
 ## Visualization workflow
 
@@ -85,5 +86,9 @@ Converted all shortcuts from Control-based (PC/Linux) to Command-based (macOS). 
 - Redo: Cmd+Shift+Z instead of Ctrl+Y
 - Window switching: Cmd+Tab/Cmd+Shift+Tab instead of Ctrl+Tab/Ctrl+Shift+Tab
 - Close window: Cmd+W instead of Ctrl+W
+
+**Spanish character support (macOS US International):**
+- ñ: Macro sends Option+N, then N (macOS dead key sequence)
+- Acute accents (á, é, í, ó, ú): Changed from Option+' to Option+E (macOS dead acute key)
 
 **To revert to PC layout:** `git checkout pc-layout` or create a branch from that tag.
