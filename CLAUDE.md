@@ -5,6 +5,7 @@ Personal ZMK firmware for a **Ferris Sweep** — a 34-key wireless split keyboar
 - Shield: `cradio` (left + right)
 - ZMK branch: `v0.3-branch` (see `config/west.yml`)
 - Builds via GitHub Actions → produces UF2 files for flashing
+- **OS Target:** macOS (uses Command for shortcuts; see `pc-layout` tag for Windows/Linux version)
 
 ## Key files
 
@@ -23,7 +24,7 @@ Personal ZMK firmware for a **Ferris Sweep** — a 34-key wireless split keyboar
 | Layer | Activation | Notes |
 |-------|-----------|-------|
 | Default | — | QWERTY; ñ on right pinky; left thumb = NAV hold, right thumb = SYM hold |
-| NAV (1) | Hold left thumb | Arrows, page up/dn, clipboard (Ctrl+Z/X/C/V/Y), media, sticky mods |
+| NAV (1) | Hold left thumb | Arrows, page up/dn, clipboard (Cmd+Z/X/C/V, Cmd+Shift+Z redo), Cmd+Tab/Cmd+Shift+Tab, Cmd+W, media, sticky mods |
 | SYM (2) | Hold right thumb | Symbols, brackets; dead acute (´) for Spanish accents; sticky mods |
 | NUM (3) | Hold both thumbs | Numbers (odd left / even right), F-keys, sticky mods |
 | Bluetooth (4) | O+P combo | BT profile select (0–3) and BT_CLR_ALL |
@@ -77,6 +78,12 @@ CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=n  # stops central from poll
 
 **If still disconnecting:** Try `CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y` (enables stricter pairing security — requires re-pairing all hosts).
 
-### NAV layer: Alt+Tab window cycling (fixed in commit 531fa71)
+### macOS conversion (tag: pc-layout)
 
-`LAlt(Tab)` sends a single Alt+Tab press and immediately releases Alt, which breaks window cycling. Replaced with plain `Tab` on the NAV layer; use sticky `LALT` (also on NAV) + Tab combo for Alt+Tab if needed.
+Converted all shortcuts from Control-based (PC/Linux) to Command-based (macOS). Key changes:
+- Clipboard operations: Cmd+Z/X/C/V instead of Ctrl+Z/X/C/V
+- Redo: Cmd+Shift+Z instead of Ctrl+Y
+- Window switching: Cmd+Tab/Cmd+Shift+Tab instead of Ctrl+Tab/Ctrl+Shift+Tab
+- Close window: Cmd+W instead of Ctrl+W
+
+**To revert to PC layout:** `git checkout pc-layout` or create a branch from that tag.
