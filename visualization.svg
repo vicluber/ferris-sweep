@@ -306,23 +306,23 @@ g.layer-sym text.tap { font-size: 16px; }
 <g transform="translate(99, 54)" class="key keypos-1">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+Sft</tspan><tspan x="0" dy="1.2em">+TAB</tspan>
+<tspan x="0" dy="-0.6em">Gui+Sft</tspan><tspan x="0" dy="1.2em">+TAB</tspan>
 </text>
 </g>
 <g transform="translate(165, 33)" class="key keypos-2">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.9em">Ctl+</tspan><tspan x="0" dy="1.2em">LSHFT</tspan>
+<tspan x="0" dy="-0.9em">Gui+</tspan><tspan x="0" dy="1.2em">LSHFT</tspan>
 </text>
 <text x="0" y="29" class="key hold">sticky</text>
 </g>
 <g transform="translate(231, 52)" class="key keypos-3">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+TAB</text>
+<text x="0" y="0" class="key tap">Gui+TAB</text>
 </g>
 <g transform="translate(297, 61)" class="key keypos-4">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+W</text>
+<text x="0" y="0" class="key tap">Gui+W</text>
 </g>
 <g transform="translate(495, 61)" class="key keypos-5">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
@@ -392,23 +392,25 @@ g.layer-sym text.tap { font-size: 16px; }
 </g>
 <g transform="translate(33, 228)" class="key keypos-20">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+Z</text>
+<text x="0" y="0" class="key tap">Gui+Z</text>
 </g>
 <g transform="translate(99, 186)" class="key keypos-21">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+X</text>
+<text x="0" y="0" class="key tap">Gui+X</text>
 </g>
 <g transform="translate(165, 165)" class="key keypos-22">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+C</text>
+<text x="0" y="0" class="key tap">Gui+C</text>
 </g>
 <g transform="translate(231, 184)" class="key keypos-23">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+V</text>
+<text x="0" y="0" class="key tap">Gui+V</text>
 </g>
 <g transform="translate(297, 193)" class="key keypos-24">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+Y</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Gui+Sft</tspan><tspan x="0" dy="1.2em">+Z</tspan>
+</text>
 </g>
 <g transform="translate(495, 193)" class="key keypos-25">
 <rect rx="6" ry="6" x="-31" y="-31" width="62" height="62" class="key"/>

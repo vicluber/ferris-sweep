@@ -4,10 +4,10 @@ layers:
   - [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, H, J, K, L, AltGr+N, Z, X, C, V, B, N, M, ',', ., '?', nav, LSHFT, SPC, sym]
   nav:
   - - PSCRN
-    - Ctl+Sft+TAB
-    - {t: Ctl+LSHFT, h: sticky}
-    - Ctl+TAB
-    - Ctl+W
+    - Gui+Sft+TAB
+    - {t: Gui+LSHFT, h: sticky}
+    - Gui+TAB
+    - Gui+W
     - PG UP
     - BSPC
     - UP
@@ -23,11 +23,11 @@ layers:
     - DOWN
     - RIGHT
     - ESC
-    - Ctl+Z
-    - Ctl+X
-    - Ctl+C
-    - Ctl+V
-    - Ctl+Y
+    - Gui+Z
+    - Gui+X
+    - Gui+C
+    - Gui+V
+    - Gui+Sft+Z
     - PG DN
     - PREV
     - PP
